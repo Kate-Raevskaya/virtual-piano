@@ -591,11 +591,9 @@ files:
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/9026#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Error: Wrong answer in test #4
-
-    The names of your keys are incorrect. It must be: A, S, D, F, G, H, J, W, E, T, Y, U
-  time: Thu, 03 Nov 2022 15:44:17 UTC
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Thu, 03 Nov 2022 15:51:42 UTC
 record: -1

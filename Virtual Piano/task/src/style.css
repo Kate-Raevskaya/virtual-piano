@@ -1,12 +1,18 @@
+* { margin: 0; padding: 0; }
+
+html {
+    height: 100%;
+}
 body {
     background-color: #346F46;
-}
-
-.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
+}
+
+.container {
+    position: relative;
 }
 
 .white-keys>kbd {
@@ -36,21 +42,19 @@ body {
 
 .white-keys {
     display: flex;
-    justify-content: center;
-    position: absolute;
     box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.3);
 }
 
 .black-keys {
     display: flex;
     width: 316px;
-    justify-content: space-between;
+    justify-content: space-around;
     position: absolute;
+    top: 0;
     z-index: 1;
+    left: 25px;
 }
 
-#invisible {
-    background-color: transparent;
-    color: transparent;
-    box-shadow: none;
+#key-t {
+    margin-left: 48px;
 }
